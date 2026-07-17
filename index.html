@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リンクメニュー</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .link-card {
+            transition: all 0.3s ease;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen p-4 md:p-8">
+
+    <div class="max-w-2xl mx-auto">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">メニューリンク集</h1>
+            <p class="text-gray-600">目的のページを選択してください</p>
+        </header>
+
+        <main class="grid gap-4">
+            <a href="https://ishiinopasokon8610-afk.github.io/miraiseed6-support-oklink/" 
+               class="link-card block p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:border-blue-500">
+                <span class="text-blue-600 font-bold mr-3">01</span>
+                <span class="text-lg font-medium">ミライシードサポートメニュー</span>
+            </a>
+
+            <a href="https://ishiinopasokon8610-afk.github.io/otetsudai-page-haruhono/" 
+               class="link-card block p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:border-blue-500">
+                <span class="text-blue-600 font-bold mr-3">02</span>
+                <span class="text-lg font-medium">お手伝い記録帳</span>
+            </a>
+
+            <a href="https://ishiinopasokon8610-afk.github.io/3min-keisan/" 
+               class="link-card block p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:border-blue-500">
+                <span class="text-blue-600 font-bold mr-3">03</span>
+                <span class="text-lg font-medium">3分計算</span>
+            </a>
+
+            <a href="https://ishiinopasokon8610-afk.github.io/otasuke-apuri/" 
+               class="link-card block p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:border-blue-500">
+                <span class="text-blue-600 font-bold mr-3">04</span>
+                <span class="text-lg font-medium">お助けアプリ</span>
+            </a>
+        </main>
+
+        <footer class="mt-12 text-center text-sm text-gray-400">
+            © 2026 Link Menu Page
+        </footer>
+    </div>
+</body>
+</html>
