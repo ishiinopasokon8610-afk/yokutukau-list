@@ -4,16 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>リンクメニュー</title>
+    <!-- Webアイコン -->
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkGZSElWG6UDDXTJ_OtWoVRnDC2LWwZPggZ-NuGN0kYQ&s=10">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .link-card {
-            transition: all 0.3s ease;
-        }
-        .link-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        }
-    </style>
+    <!-- CSSファイルを読み込む -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-50 text-gray-800 min-h-screen p-4 md:p-8">
 
@@ -65,11 +60,21 @@
                 <span class="text-blue-600 font-bold mr-3">06</span>
                 <span class="text-lg font-medium">レジスター</span>
             </a>
+
+            <a href="https://ishiinopasokon8610-afk.github.io/Bounce-Game/" 
+               target="_blank" rel="noopener noreferrer"
+               class="link-card block p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:border-blue-500">
+                <span class="text-blue-600 font-bold mr-3">07</span>
+                <span class="text-lg font-medium">バウンドゲーム</span>
+            </a>
         </main>
 
         <footer class="mt-12 text-center text-sm text-gray-400">
             © 2026 Link Menu Page
         </footer>
     </div>
+
+    <!-- JavaScriptファイルを読み込む -->
+    <script src="script.js"></script>
 </body>
 </html>
